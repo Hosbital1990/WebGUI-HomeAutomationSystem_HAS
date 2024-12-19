@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -Wl,--dependency-file,CMakeFiles/WebGU.dir/link.d CMakeFiles/WebGU.dir/main.cpp.o -o WebGU
