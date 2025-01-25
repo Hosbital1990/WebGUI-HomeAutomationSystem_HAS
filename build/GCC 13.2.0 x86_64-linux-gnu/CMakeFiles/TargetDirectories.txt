@@ -1,3 +1,0 @@
-/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles/WebGUI.dir
-/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles/edit_cache.dir
-/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles/rebuild_cache.dir

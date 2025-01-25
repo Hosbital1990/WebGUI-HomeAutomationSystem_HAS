@@ -1,13 +1,40 @@
+#include <iostream>
 #include "sensor.h"
+#include <vector>
 
-
-
-DoSom::DoSom()
+bool Sensor::power_trigger()
 {
+    return false;
 }
 
-void DoSom::doSM()
+bool Sensor::change_operation_state(int new_state)
 {
-            std::cout << "Hello from DoSOm \n";
+    return false;
+}
 
+Sensor::Sensor()
+{
+    std::cout << "Done!" << std::endl;
+}
+
+Sensor::Sensor(std::string_view name, int order_number, int priority, bool power_state, short int operation_state)
+    : name(name), order_number(order_number), priority(priority), power_state(power_state), operation_state(operation_state)
+{
+    std::cout << "Done!" << std::endl;
+}
+
+Sensor::~Sensor()
+{
+    std::cout << "Done!" << std::endl;
+}
+
+void Sensor::start_data_reading()
+{
+
+    std::cout << this->name << "sensor start reading data :" << std::endl;
+}
+
+std::vector<double> Sensor::providing_data()
+{
+    return std::vector<double>();
 }

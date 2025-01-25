@@ -6,18 +6,6 @@
 
 int main(int argc, char const *argv[])
 {
-    /* code */
-    std::cout << "Hello Web GUI \n";
-        std::cout << "2Rood Web GUI \n";
-
-    DoSom doSomObj;
-    doSomObj.doSM();
-
-    Actuator actuatorObj;
-    actuatorObj.turnOn();
-    actuatorObj.turnOff(); 
-
-    
 
 
     return 0;
