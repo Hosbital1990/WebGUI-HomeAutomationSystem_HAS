@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file,CMakeFiles/WebGUI.dir/link.d CMakeFiles/WebGUI.dir/main.cpp.o CMakeFiles/WebGUI.dir/src/sensor.cpp.o CMakeFiles/WebGUI.dir/src/actuator.cpp.o -o WebGUI
