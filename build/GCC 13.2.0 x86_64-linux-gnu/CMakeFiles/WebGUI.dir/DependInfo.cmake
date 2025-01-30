@@ -10,7 +10,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/main.cpp" "CMakeFiles/WebGUI.dir/main.cpp.o" "gcc" "CMakeFiles/WebGUI.dir/main.cpp.o.d"
   "/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/actuator.cpp" "CMakeFiles/WebGUI.dir/src/actuator.cpp.o" "gcc" "CMakeFiles/WebGUI.dir/src/actuator.cpp.o.d"
+  "/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/camera.cpp" "CMakeFiles/WebGUI.dir/src/camera.cpp.o" "gcc" "CMakeFiles/WebGUI.dir/src/camera.cpp.o.d"
+  "/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/central_manager.cpp" "CMakeFiles/WebGUI.dir/src/central_manager.cpp.o" "gcc" "CMakeFiles/WebGUI.dir/src/central_manager.cpp.o.d"
+  "/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/heater_controller.cpp" "CMakeFiles/WebGUI.dir/src/heater_controller.cpp.o" "gcc" "CMakeFiles/WebGUI.dir/src/heater_controller.cpp.o.d"
+  "/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/memory_interface.cpp" "CMakeFiles/WebGUI.dir/src/memory_interface.cpp.o" "gcc" "CMakeFiles/WebGUI.dir/src/memory_interface.cpp.o.d"
   "/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/sensor.cpp" "CMakeFiles/WebGUI.dir/src/sensor.cpp.o" "gcc" "CMakeFiles/WebGUI.dir/src/sensor.cpp.o.d"
+  "/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/temp_sensor.cpp" "CMakeFiles/WebGUI.dir/src/temp_sensor.cpp.o" "gcc" "CMakeFiles/WebGUI.dir/src/temp_sensor.cpp.o.d"
   "" "WebGUI" "gcc" "CMakeFiles/WebGUI.dir/link.d"
   )
 

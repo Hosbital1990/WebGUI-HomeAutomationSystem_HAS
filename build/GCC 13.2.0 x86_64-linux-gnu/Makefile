@@ -177,6 +177,102 @@ src/actuator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/actuator.cpp.s
 .PHONY : src/actuator.cpp.s
 
+src/camera.o: src/camera.cpp.o
+.PHONY : src/camera.o
+
+# target to build an object file
+src/camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/camera.cpp.o
+.PHONY : src/camera.cpp.o
+
+src/camera.i: src/camera.cpp.i
+.PHONY : src/camera.i
+
+# target to preprocess a source file
+src/camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/camera.cpp.i
+.PHONY : src/camera.cpp.i
+
+src/camera.s: src/camera.cpp.s
+.PHONY : src/camera.s
+
+# target to generate assembly for a file
+src/camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/camera.cpp.s
+.PHONY : src/camera.cpp.s
+
+src/central_manager.o: src/central_manager.cpp.o
+.PHONY : src/central_manager.o
+
+# target to build an object file
+src/central_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/central_manager.cpp.o
+.PHONY : src/central_manager.cpp.o
+
+src/central_manager.i: src/central_manager.cpp.i
+.PHONY : src/central_manager.i
+
+# target to preprocess a source file
+src/central_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/central_manager.cpp.i
+.PHONY : src/central_manager.cpp.i
+
+src/central_manager.s: src/central_manager.cpp.s
+.PHONY : src/central_manager.s
+
+# target to generate assembly for a file
+src/central_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/central_manager.cpp.s
+.PHONY : src/central_manager.cpp.s
+
+src/heater_controller.o: src/heater_controller.cpp.o
+.PHONY : src/heater_controller.o
+
+# target to build an object file
+src/heater_controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/heater_controller.cpp.o
+.PHONY : src/heater_controller.cpp.o
+
+src/heater_controller.i: src/heater_controller.cpp.i
+.PHONY : src/heater_controller.i
+
+# target to preprocess a source file
+src/heater_controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/heater_controller.cpp.i
+.PHONY : src/heater_controller.cpp.i
+
+src/heater_controller.s: src/heater_controller.cpp.s
+.PHONY : src/heater_controller.s
+
+# target to generate assembly for a file
+src/heater_controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/heater_controller.cpp.s
+.PHONY : src/heater_controller.cpp.s
+
+src/memory_interface.o: src/memory_interface.cpp.o
+.PHONY : src/memory_interface.o
+
+# target to build an object file
+src/memory_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/memory_interface.cpp.o
+.PHONY : src/memory_interface.cpp.o
+
+src/memory_interface.i: src/memory_interface.cpp.i
+.PHONY : src/memory_interface.i
+
+# target to preprocess a source file
+src/memory_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/memory_interface.cpp.i
+.PHONY : src/memory_interface.cpp.i
+
+src/memory_interface.s: src/memory_interface.cpp.s
+.PHONY : src/memory_interface.s
+
+# target to generate assembly for a file
+src/memory_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/memory_interface.cpp.s
+.PHONY : src/memory_interface.cpp.s
+
 src/sensor.o: src/sensor.cpp.o
 .PHONY : src/sensor.o
 
@@ -201,6 +297,30 @@ src/sensor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/sensor.cpp.s
 .PHONY : src/sensor.cpp.s
 
+src/temp_sensor.o: src/temp_sensor.cpp.o
+.PHONY : src/temp_sensor.o
+
+# target to build an object file
+src/temp_sensor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/temp_sensor.cpp.o
+.PHONY : src/temp_sensor.cpp.o
+
+src/temp_sensor.i: src/temp_sensor.cpp.i
+.PHONY : src/temp_sensor.i
+
+# target to preprocess a source file
+src/temp_sensor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/temp_sensor.cpp.i
+.PHONY : src/temp_sensor.cpp.i
+
+src/temp_sensor.s: src/temp_sensor.cpp.s
+.PHONY : src/temp_sensor.s
+
+# target to generate assembly for a file
+src/temp_sensor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/temp_sensor.cpp.s
+.PHONY : src/temp_sensor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,9 +336,24 @@ help:
 	@echo "... src/actuator.o"
 	@echo "... src/actuator.i"
 	@echo "... src/actuator.s"
+	@echo "... src/camera.o"
+	@echo "... src/camera.i"
+	@echo "... src/camera.s"
+	@echo "... src/central_manager.o"
+	@echo "... src/central_manager.i"
+	@echo "... src/central_manager.s"
+	@echo "... src/heater_controller.o"
+	@echo "... src/heater_controller.i"
+	@echo "... src/heater_controller.s"
+	@echo "... src/memory_interface.o"
+	@echo "... src/memory_interface.i"
+	@echo "... src/memory_interface.s"
 	@echo "... src/sensor.o"
 	@echo "... src/sensor.i"
 	@echo "... src/sensor.s"
+	@echo "... src/temp_sensor.o"
+	@echo "... src/temp_sensor.i"
+	@echo "... src/temp_sensor.s"
 .PHONY : help
 
 
