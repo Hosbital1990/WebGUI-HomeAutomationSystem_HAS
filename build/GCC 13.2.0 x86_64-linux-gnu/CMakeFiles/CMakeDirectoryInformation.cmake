@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/buil")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

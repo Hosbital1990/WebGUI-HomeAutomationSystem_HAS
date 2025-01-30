@@ -1,3 +1,0 @@
-/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/buil/CMakeFiles/WebGUI.dir
-/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/buil/CMakeFiles/edit_cache.dir
-/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/buil/CMakeFiles/rebuild_cache.dir
