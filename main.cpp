@@ -9,14 +9,22 @@
 #include "camera.h"
 
 int main(int argc, char const *argv[])
-{
+
 
     std::cout << "Hello Web GUI" << std::endl;
 
     try
     {
         /* code */
-            CentralManager central_manager;
+
+            /**
+             * @brief By creating an object of CentralManager, It tries to setting up the whole system to start.
+             * 
+             * @param parameter-name description
+             * 
+             */
+            CentralManager central_manager("admin", "admin", 1001);
+            central_manager.system_initial();
             central_manager.start_point();  
             
     }

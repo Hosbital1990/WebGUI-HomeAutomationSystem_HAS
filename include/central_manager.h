@@ -21,10 +21,12 @@ public:
 int system_ID;
 std::string system_name;
 
+//Initial entire system
+bool system_initial();
+
 // program starts from here
 void start_point();
 
-bool initial_analysis();
 
 
 std::string getCurrentTime(); 
@@ -41,7 +43,9 @@ struct Version{
 };
 
 private:
-
+std::string_view username;
+std::string_view password;
+int user_ID_number;
 
 };
 
