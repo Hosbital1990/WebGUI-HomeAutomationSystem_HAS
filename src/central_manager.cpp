@@ -30,6 +30,8 @@ CentralManager::CentralManager()
 CentralManager::CentralManager(std::string_view username, std::string_view password, int user_ID_number)
 : username(username), password(password), user_ID_number(user_ID_number)
 {
+        std::cout << "Parametred, Constructor of central manager is called! " << std::endl;
+
     // Call the initialization function and check its return value
     // if (!system_initial())
     // {
@@ -37,7 +39,6 @@ CentralManager::CentralManager(std::string_view username, std::string_view passw
     //     throw std::runtime_error("Initialization failed in CentralManager");
     // }
 
-    std::cout << "Parametred Constructor of central manager is called! " << std::endl;
 
 }   
 
@@ -57,6 +58,8 @@ CentralManager::~CentralManager()
 bool CentralManager::system_initial()
 {
  
+    // Initial all parts of system including sensors, actuator, camera and also memory and etc
+    
     
  
     // Analysis like check and set all input and also primary adjustment

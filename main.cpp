@@ -8,7 +8,7 @@
 #include "heater_controller.h"
 #include "camera.h"
 
-int main(int argc, char const *argv[])
+int main(int argc, char const *argv[]){
 
 
     std::cout << "Hello Web GUI" << std::endl;
