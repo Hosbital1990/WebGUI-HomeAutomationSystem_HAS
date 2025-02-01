@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/IO_interface.o: src/IO_interface.cpp.o
+.PHONY : src/IO_interface.o
+
+# target to build an object file
+src/IO_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/IO_interface.cpp.o
+.PHONY : src/IO_interface.cpp.o
+
+src/IO_interface.i: src/IO_interface.cpp.i
+.PHONY : src/IO_interface.i
+
+# target to preprocess a source file
+src/IO_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/IO_interface.cpp.i
+.PHONY : src/IO_interface.cpp.i
+
+src/IO_interface.s: src/IO_interface.cpp.s
+.PHONY : src/IO_interface.s
+
+# target to generate assembly for a file
+src/IO_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebGUI.dir/build.make CMakeFiles/WebGUI.dir/src/IO_interface.cpp.s
+.PHONY : src/IO_interface.cpp.s
+
 src/actuator.o: src/actuator.cpp.o
 .PHONY : src/actuator.o
 
@@ -333,6 +357,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/IO_interface.o"
+	@echo "... src/IO_interface.i"
+	@echo "... src/IO_interface.s"
 	@echo "... src/actuator.o"
 	@echo "... src/actuator.i"
 	@echo "... src/actuator.s"

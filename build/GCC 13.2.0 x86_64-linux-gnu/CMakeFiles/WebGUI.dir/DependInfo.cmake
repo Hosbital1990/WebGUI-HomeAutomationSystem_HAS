@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/main.cpp" "CMakeFiles/WebGUI.dir/main.cpp.o" "gcc" "CMakeFiles/WebGUI.dir/main.cpp.o.d"
+  "/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/IO_interface.cpp" "CMakeFiles/WebGUI.dir/src/IO_interface.cpp.o" "gcc" "CMakeFiles/WebGUI.dir/src/IO_interface.cpp.o.d"
   "/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/actuator.cpp" "CMakeFiles/WebGUI.dir/src/actuator.cpp.o" "gcc" "CMakeFiles/WebGUI.dir/src/actuator.cpp.o.d"
   "/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/camera.cpp" "CMakeFiles/WebGUI.dir/src/camera.cpp.o" "gcc" "CMakeFiles/WebGUI.dir/src/camera.cpp.o.d"
   "/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/central_manager.cpp" "CMakeFiles/WebGUI.dir/src/central_manager.cpp.o" "gcc" "CMakeFiles/WebGUI.dir/src/central_manager.cpp.o.d"

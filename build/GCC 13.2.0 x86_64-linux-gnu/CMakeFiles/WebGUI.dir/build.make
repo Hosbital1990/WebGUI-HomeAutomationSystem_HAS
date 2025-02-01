@@ -86,10 +86,24 @@ CMakeFiles/WebGUI.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/WebGUI.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/main.cpp -o CMakeFiles/WebGUI.dir/main.cpp.s
 
+CMakeFiles/WebGUI.dir/src/IO_interface.cpp.o: CMakeFiles/WebGUI.dir/flags.make
+CMakeFiles/WebGUI.dir/src/IO_interface.cpp.o: /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/IO_interface.cpp
+CMakeFiles/WebGUI.dir/src/IO_interface.cpp.o: CMakeFiles/WebGUI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WebGUI.dir/src/IO_interface.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WebGUI.dir/src/IO_interface.cpp.o -MF CMakeFiles/WebGUI.dir/src/IO_interface.cpp.o.d -o CMakeFiles/WebGUI.dir/src/IO_interface.cpp.o -c /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/IO_interface.cpp
+
+CMakeFiles/WebGUI.dir/src/IO_interface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/WebGUI.dir/src/IO_interface.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/IO_interface.cpp > CMakeFiles/WebGUI.dir/src/IO_interface.cpp.i
+
+CMakeFiles/WebGUI.dir/src/IO_interface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/WebGUI.dir/src/IO_interface.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/IO_interface.cpp -o CMakeFiles/WebGUI.dir/src/IO_interface.cpp.s
+
 CMakeFiles/WebGUI.dir/src/actuator.cpp.o: CMakeFiles/WebGUI.dir/flags.make
 CMakeFiles/WebGUI.dir/src/actuator.cpp.o: /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/actuator.cpp
 CMakeFiles/WebGUI.dir/src/actuator.cpp.o: CMakeFiles/WebGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WebGUI.dir/src/actuator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WebGUI.dir/src/actuator.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WebGUI.dir/src/actuator.cpp.o -MF CMakeFiles/WebGUI.dir/src/actuator.cpp.o.d -o CMakeFiles/WebGUI.dir/src/actuator.cpp.o -c /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/actuator.cpp
 
 CMakeFiles/WebGUI.dir/src/actuator.cpp.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/WebGUI.dir/src/actuator.cpp.s: cmake_force
 CMakeFiles/WebGUI.dir/src/camera.cpp.o: CMakeFiles/WebGUI.dir/flags.make
 CMakeFiles/WebGUI.dir/src/camera.cpp.o: /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/camera.cpp
 CMakeFiles/WebGUI.dir/src/camera.cpp.o: CMakeFiles/WebGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WebGUI.dir/src/camera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/WebGUI.dir/src/camera.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WebGUI.dir/src/camera.cpp.o -MF CMakeFiles/WebGUI.dir/src/camera.cpp.o.d -o CMakeFiles/WebGUI.dir/src/camera.cpp.o -c /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/camera.cpp
 
 CMakeFiles/WebGUI.dir/src/camera.cpp.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/WebGUI.dir/src/camera.cpp.s: cmake_force
 CMakeFiles/WebGUI.dir/src/central_manager.cpp.o: CMakeFiles/WebGUI.dir/flags.make
 CMakeFiles/WebGUI.dir/src/central_manager.cpp.o: /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/central_manager.cpp
 CMakeFiles/WebGUI.dir/src/central_manager.cpp.o: CMakeFiles/WebGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/WebGUI.dir/src/central_manager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/WebGUI.dir/src/central_manager.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WebGUI.dir/src/central_manager.cpp.o -MF CMakeFiles/WebGUI.dir/src/central_manager.cpp.o.d -o CMakeFiles/WebGUI.dir/src/central_manager.cpp.o -c /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/central_manager.cpp
 
 CMakeFiles/WebGUI.dir/src/central_manager.cpp.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/WebGUI.dir/src/central_manager.cpp.s: cmake_force
 CMakeFiles/WebGUI.dir/src/heater_controller.cpp.o: CMakeFiles/WebGUI.dir/flags.make
 CMakeFiles/WebGUI.dir/src/heater_controller.cpp.o: /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/heater_controller.cpp
 CMakeFiles/WebGUI.dir/src/heater_controller.cpp.o: CMakeFiles/WebGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/WebGUI.dir/src/heater_controller.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/WebGUI.dir/src/heater_controller.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WebGUI.dir/src/heater_controller.cpp.o -MF CMakeFiles/WebGUI.dir/src/heater_controller.cpp.o.d -o CMakeFiles/WebGUI.dir/src/heater_controller.cpp.o -c /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/heater_controller.cpp
 
 CMakeFiles/WebGUI.dir/src/heater_controller.cpp.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/WebGUI.dir/src/heater_controller.cpp.s: cmake_force
 CMakeFiles/WebGUI.dir/src/memory_interface.cpp.o: CMakeFiles/WebGUI.dir/flags.make
 CMakeFiles/WebGUI.dir/src/memory_interface.cpp.o: /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/memory_interface.cpp
 CMakeFiles/WebGUI.dir/src/memory_interface.cpp.o: CMakeFiles/WebGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/WebGUI.dir/src/memory_interface.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/WebGUI.dir/src/memory_interface.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WebGUI.dir/src/memory_interface.cpp.o -MF CMakeFiles/WebGUI.dir/src/memory_interface.cpp.o.d -o CMakeFiles/WebGUI.dir/src/memory_interface.cpp.o -c /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/memory_interface.cpp
 
 CMakeFiles/WebGUI.dir/src/memory_interface.cpp.i: cmake_force
@@ -159,7 +173,7 @@ CMakeFiles/WebGUI.dir/src/memory_interface.cpp.s: cmake_force
 CMakeFiles/WebGUI.dir/src/sensor.cpp.o: CMakeFiles/WebGUI.dir/flags.make
 CMakeFiles/WebGUI.dir/src/sensor.cpp.o: /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/sensor.cpp
 CMakeFiles/WebGUI.dir/src/sensor.cpp.o: CMakeFiles/WebGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/WebGUI.dir/src/sensor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/WebGUI.dir/src/sensor.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WebGUI.dir/src/sensor.cpp.o -MF CMakeFiles/WebGUI.dir/src/sensor.cpp.o.d -o CMakeFiles/WebGUI.dir/src/sensor.cpp.o -c /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/sensor.cpp
 
 CMakeFiles/WebGUI.dir/src/sensor.cpp.i: cmake_force
@@ -173,7 +187,7 @@ CMakeFiles/WebGUI.dir/src/sensor.cpp.s: cmake_force
 CMakeFiles/WebGUI.dir/src/temp_sensor.cpp.o: CMakeFiles/WebGUI.dir/flags.make
 CMakeFiles/WebGUI.dir/src/temp_sensor.cpp.o: /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/temp_sensor.cpp
 CMakeFiles/WebGUI.dir/src/temp_sensor.cpp.o: CMakeFiles/WebGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/WebGUI.dir/src/temp_sensor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/WebGUI.dir/src/temp_sensor.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WebGUI.dir/src/temp_sensor.cpp.o -MF CMakeFiles/WebGUI.dir/src/temp_sensor.cpp.o.d -o CMakeFiles/WebGUI.dir/src/temp_sensor.cpp.o -c /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/src/temp_sensor.cpp
 
 CMakeFiles/WebGUI.dir/src/temp_sensor.cpp.i: cmake_force
@@ -187,6 +201,7 @@ CMakeFiles/WebGUI.dir/src/temp_sensor.cpp.s: cmake_force
 # Object files for target WebGUI
 WebGUI_OBJECTS = \
 "CMakeFiles/WebGUI.dir/main.cpp.o" \
+"CMakeFiles/WebGUI.dir/src/IO_interface.cpp.o" \
 "CMakeFiles/WebGUI.dir/src/actuator.cpp.o" \
 "CMakeFiles/WebGUI.dir/src/camera.cpp.o" \
 "CMakeFiles/WebGUI.dir/src/central_manager.cpp.o" \
@@ -199,6 +214,7 @@ WebGUI_OBJECTS = \
 WebGUI_EXTERNAL_OBJECTS =
 
 WebGUI: CMakeFiles/WebGUI.dir/main.cpp.o
+WebGUI: CMakeFiles/WebGUI.dir/src/IO_interface.cpp.o
 WebGUI: CMakeFiles/WebGUI.dir/src/actuator.cpp.o
 WebGUI: CMakeFiles/WebGUI.dir/src/camera.cpp.o
 WebGUI: CMakeFiles/WebGUI.dir/src/central_manager.cpp.o
@@ -267,7 +283,7 @@ WebGUI: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.6.0
 WebGUI: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
 WebGUI: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
 WebGUI: CMakeFiles/WebGUI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable WebGUI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/build/GCC 13.2.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable WebGUI"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WebGUI.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

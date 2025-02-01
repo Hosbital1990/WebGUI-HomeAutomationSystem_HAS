@@ -266,4 +266,9 @@ CMakeFiles/WebGUI.dir/src/central_manager.cpp.o: \
  /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/temp_sensor.h \
  /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/heater_controller.h \
  /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/actuator.h \
- /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/camera.h
+ /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/camera.h \
+ /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/IO_interface.h \
+ /usr/include/c++/13/fstream \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc
