@@ -14,7 +14,7 @@ namespace IOInterface {
         return true;
     }
 
-    bool ActuatorAvailability(std::vector<Actuator*>& actuators){
+    bool checkActuatorAvailability(std::vector<Actuator*>& actuators){
 
         actuators.push_back(new Heater_Controller("LivingRoomHeaterController", 1, 100, true, 2));
         actuators.push_back(new Heater_Controller("BedRoomHeaterController", 2, 100, true, 2));

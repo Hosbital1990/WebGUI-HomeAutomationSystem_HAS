@@ -11,6 +11,7 @@
 #include "actuator.h"
 #include "heater_controller.h"
 #include "camera.h"
+#include "IO_interface.h"
 
 /**
  * @brief Default constructor for CentralManager.
@@ -59,7 +60,13 @@ bool CentralManager::system_initial()
 {
  
     // Initial all parts of system including sensors, actuator, camera and also memory and etc
-    
+    std ::vector<Sensor*> sensors;
+    IOInterface::checkSensorAvailability(sensors);
+
+    std::vector<Actuator*> actuators;
+    IOInterface::checkActuatorAvailability(actuators);
+
+
     
  
     // Analysis like check and set all input and also primary adjustment
@@ -75,26 +82,7 @@ void CentralManager::start_point()
 {
     std::cout << " Program started ..." << std::endl;
 
-    // Create and start Object of Temp sensor -> Temp sensor data reading start
-    Sensor* sensor = new Temp_Sensor("Temperature", 1, 10, true, 3);
-    std::cout << "Temp sensor starts working ... " << std::endl;
-
-    // Call actuator adjuster
-    Actuator* actuator = new Heater_Controller("Heater", 2, 100, true, 2, sensor);
-    std::cout << "Temp sensor starts working ... " << std::endl;
-
-    // Handle Camera Read frame, show on display and also save-> jthread handle this task
-    // std::jthread camera_thread (Camera::camera_start, 0);
-
-    // Asynchronous parallelism handle this task
-    // std::future<bool> camera_future;
-    // camera_future = std::async(std::launch::async, Camera::camera_setup );
-    // camera_future.get();  // Main thread stays here to get a bool result from camera
-
-    if (!Camera::camera_setup())
-    {
-        std::cout << " There is a problem with Camera driving!" << std::endl;
-    }
+    // Start the main loop
 }
 
 

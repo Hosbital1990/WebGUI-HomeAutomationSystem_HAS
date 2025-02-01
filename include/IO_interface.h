@@ -5,26 +5,40 @@
 #include <fstream>
 #include <string>
 #include <vector>
+#include "sensor.h"
+#include "actuator.h"
+
+#define MAX_SENSOR 10
+#define MAX_ACTUATOR 10
 
 /**
  * @brief Namespace for handling In/Out interfaces like GPIO, I2C, SPI, UART, etc.
  * 
  * This namespace provides all related access to In/Out interfaces such as GPIO, I2C, SPI, UART, etc.
  * 
- * @author Hosbital
- * @date 2021-09-01
+ * @date 2025-02-01
  * @version 1.0
  */
-
 namespace IOInterface {
 
     /**
-     * @brief check out In/Out interface like GPIO, I2C, SPI, UART, etc.
+     * @brief Check out GPIO to determine which Sensors are connected.
+     *  Accordingly, create and push an object of related sensor into the vector.
      * 
-     * @param filename The path to the file to read.
-     * @return std::vector<double> A vector containing the data read from the file.  Returns an empty vector if the file cannot be opened or if an error occurs during reading.
+     * @param sensors A vector of pointers to Sensor objects.
+     * @return bool True, if procedure done well.
      */
+    bool checkSensorAvailability(std::vector<Sensor*>& sensors);
 
-        bool 
-    
-    }
+    /**
+     * @brief Check out GPIO to determine which Actuators are connected.
+     *  Accordingly, create and push an object of related actuator into the vector.
+     * 
+     * @param actuators A vector of pointers to Actuator objects.
+     * @return bool True, if procedure done well.
+     */ 
+    bool checkActuatorAvailability(std::vector<Actuator*>& actuators);
+
+}
+
+#endif // IO_INTERFACE_H
