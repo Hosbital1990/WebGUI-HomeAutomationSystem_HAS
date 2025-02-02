@@ -17,6 +17,7 @@
  * @brief Default constructor for CentralManager.
  */
 CentralManager::CentralManager()
+: system_ID(0), system_name("DefaultSystem")
 {
     std::cout << "Default Constructor of central manager is called! " << std::endl;
 }
@@ -29,9 +30,9 @@ CentralManager::CentralManager()
  * @param user_ID_number User ID number of the central manager.
  */
 CentralManager::CentralManager(std::string_view username, std::string_view password, int user_ID_number)
-: username(username), password(password), user_ID_number(user_ID_number)
+: username(username), password(password), user_ID_number(user_ID_number), system_ID(0), system_name("DefaultSystem")
 {
-        std::cout << "Parametred, Constructor of central manager is called! " << std::endl;
+    std::cout << "Parametred, Constructor of central manager is called! " << std::endl;
 
     // Call the initialization function and check its return value
     // if (!system_initial())
@@ -39,8 +40,6 @@ CentralManager::CentralManager(std::string_view username, std::string_view passw
     //     // Throw an exception if the initialization failed
     //     throw std::runtime_error("Initialization failed in CentralManager");
     // }
-
-
 }   
 
 /**
@@ -51,24 +50,25 @@ CentralManager::~CentralManager()
 }
 
 /**
- * @brief Performs initial analysis and setup.
+ * @brief Performs initial analysis and setup: 
+ * Initial all parts of system including sensors, actuator, camera and also memory and etc
  * 
  * @return true If the initial analysis is successful.
  * @return false If the initial analysis fails.
+ * 
+ * @future work: This function should be expanded to include all the necessary setup for the system before run.
+ * 
  */
 bool CentralManager::system_initial()
 {
  
-    // Initial all parts of system including sensors, actuator, camera and also memory and etc
-    std ::vector<Sensor*> sensors;
+    // Check and set all sensors
     IOInterface::checkSensorAvailability(sensors);
 
-    std::vector<Actuator*> actuators;
+    //check and set all actuators
     IOInterface::checkActuatorAvailability(actuators);
 
-
-    
- 
+     
     // Analysis like check and set all input and also primary adjustment
     std::cout << "Primary analysis and settlement Done!" << std::endl;
     return true;
@@ -81,6 +81,16 @@ bool CentralManager::system_initial()
 void CentralManager::start_point()
 {
     std::cout << " Program started ..." << std::endl;
+
+    for (auto &sensor : sensors)
+    {
+      //  sensor->read();
+    }
+
+    for(auto &actuator : actuators)
+    {
+       // actuator->run();
+    }
 
     // Start the main loop
 }

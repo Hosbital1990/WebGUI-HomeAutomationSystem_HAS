@@ -6,6 +6,11 @@
 
 
 #include <iostream>
+#include <vector>
+
+
+#include "sensor.h"
+#include "actuator.h"
 
 
 class CentralManager {
@@ -46,6 +51,9 @@ private:
 std::string_view username;
 std::string_view password;
 int user_ID_number;
+
+std::vector<Sensor*> sensors;
+std::vector<Actuator*> actuators;
 
 };
 

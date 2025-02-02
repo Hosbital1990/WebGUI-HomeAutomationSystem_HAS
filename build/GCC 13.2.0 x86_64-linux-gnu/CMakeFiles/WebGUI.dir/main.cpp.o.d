@@ -257,7 +257,7 @@ CMakeFiles/WebGUI.dir/main.cpp.o: \
  /usr/include/c++/13/mutex /usr/include/c++/13/bits/unique_lock.h \
  /usr/include/c++/13/any /usr/include/c++/13/condition_variable \
  /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/central_manager.h \
+ /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/actuator.h \
  /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/temp_sensor.h \
  /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/heater_controller.h \
- /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/actuator.h \
  /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/camera.h

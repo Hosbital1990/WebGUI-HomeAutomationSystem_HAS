@@ -231,9 +231,6 @@ CMakeFiles/WebGUI.dir/src/central_manager.cpp.o: \
  /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/central_manager.h \
  /usr/include/c++/13/iostream \
  /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/sensor.h \
- /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/temp_sensor.h \
- /usr/include/c++/13/any \
- /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/sensor.h \
  /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/actuator.h \
  /usr/include/c++/13/random /usr/include/c++/13/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -264,8 +261,11 @@ CMakeFiles/WebGUI.dir/src/central_manager.cpp.o: \
  /usr/include/c++/13/pstl/glue_numeric_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
  /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/temp_sensor.h \
- /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/heater_controller.h \
+ /usr/include/c++/13/any \
+ /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/sensor.h \
+ /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/temp_sensor.h \
  /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/actuator.h \
+ /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/heater_controller.h \
  /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/camera.h \
  /home/hosbital/project/comeback/WebGUI-HomeAutomationSystem_HAS/include/IO_interface.h \
  /usr/include/c++/13/fstream \
