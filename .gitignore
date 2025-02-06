@@ -1,0 +1,17 @@
+# Ignore build directories
+build/
+dist/
+out/
+
+# Ignore Qt build files
+*.o
+*.obj
+*.so
+*.a
+*.exe
+*.dll
+*.dSYM/
+*.app/
+Makefile
+CMakeCache.txt
+CMakeFiles/
