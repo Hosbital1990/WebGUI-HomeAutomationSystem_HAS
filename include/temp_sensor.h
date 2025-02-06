@@ -29,7 +29,7 @@ std::string_view name;
 
 private:
 
-virtual void start_data_reading() override;
+virtual void startDataAcquisition() override;
 
 std::mutex temp_mtx;
 std::vector<double> raw_temp_data ;

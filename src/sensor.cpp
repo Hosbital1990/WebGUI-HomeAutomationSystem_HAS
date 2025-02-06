@@ -59,7 +59,7 @@ Sensor::~Sensor()
 /**
  * @brief Starts the data reading process.
  */
-void Sensor::start_data_reading()
+void Sensor::startDataAcquisition()
 {
     std::cout << this->name << " sensor start reading data :" << std::endl;
 }

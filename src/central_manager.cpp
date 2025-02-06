@@ -68,6 +68,7 @@ bool CentralManager::system_initial()
     //check and set all actuators
     IOInterface::checkActuatorAvailability(actuators);
 
+    
      
     // Analysis like check and set all input and also primary adjustment
     std::cout << "Primary analysis and settlement Done!" << std::endl;

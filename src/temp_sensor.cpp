@@ -23,7 +23,7 @@ Temp_Sensor::Temp_Sensor(std::string_view name, int order_number, int priority, 
 {
     // Call temp data reading thread as soon as temp object is created
     std::cout << "Done Temp sensor!" << std::endl;
-    temp_data_reading_thread = std::jthread(&Temp_Sensor::start_data_reading, this);
+    temp_data_reading_thread = std::jthread(&Temp_Sensor::startDataAcquisition, this);
 }
 
 /**
@@ -50,7 +50,7 @@ std::vector<double> Temp_Sensor::providing_data()
 /**
  * @brief Starts the data reading process.
  */
-void Temp_Sensor::start_data_reading()
+void Temp_Sensor::startDataAcquisition()
 {
     std::cout << "Hello from Start data reading!" << std::endl;
 

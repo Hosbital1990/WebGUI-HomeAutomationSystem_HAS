@@ -22,7 +22,7 @@ virtual std::vector<double> providing_data();
 
 protected:
 
-virtual void start_data_reading();
+virtual void startDataAcquisition();
 
 virtual bool power_trigger();
 virtual bool change_operation_state(int new_state);
