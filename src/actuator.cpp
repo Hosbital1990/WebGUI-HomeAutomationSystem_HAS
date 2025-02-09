@@ -22,8 +22,10 @@ Actuator::~Actuator()
 
 }
 
-void Actuator::actuator_adjuster(Sensor *sensor)
+void Actuator::actuator_adjuster()
 {
 
-        auto sensor_data = sensor->providing_data();
+    std::cout << "Actuator adjuster is called!"<<std::endl;
+
 }
+

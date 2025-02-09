@@ -30,7 +30,7 @@ CentralManager::CentralManager()
  * @param user_ID_number User ID number of the central manager.
  */
 CentralManager::CentralManager(std::string_view username, std::string_view password, int user_ID_number)
-: username(username), password(password), user_ID_number(user_ID_number), system_ID(0), system_name("DefaultSystem")
+: username(username), password(password), user_ID_number(user_ID_number), system_ID(0), system_name("DefaultSystem"), is_programe_started(false)
 {
     std::cout << "Parametred, Constructor of central manager is called! " << std::endl;
 
@@ -79,24 +79,73 @@ bool CentralManager::system_initial()
 /**
  * @brief Starts the central manager.
  */
-void CentralManager::start_point()
+void CentralManager::letsGetStartApp()
 {
     std::cout << " Program started ..." << std::endl;
 
-    for (auto &sensor : sensors)
-    {
-      //  sensor->read();
-    }
+    /**
+     * @brief toggle the program start flag
+     */
+    is_programe_started = true;
 
-    for(auto &actuator : actuators)
-    {
-       // actuator->run();
-    }
-
-    // Start the main loop
+    std::thread snesotThread (&CentralManager::sensorsTaskHandler, this);
 }
 
+/**
+ * 
+ * @brief 
+ * 
+ */
 
+void CentralManager::sensorsTaskHandler(){
+
+    std::cout << "Sensor Task Handler is called!" << std::endl;
+
+    while (is_programe_started)
+    {
+        {
+            std::unique_lock<std::mutex> lock(CM_mtx);
+            for (auto &sensor : sensors)
+            {
+            sensor->startDataAcquisition();   
+            }
+    
+        }
+        /**
+         * @brief need to collect sensors raw data each 1 second
+         * 
+         */
+        std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+
+        
+    }
+    
+}
+
+void CentralManager::actuatorsTaskHandler(){
+
+    std::cout << "Actuator Task Handler is called!" << std::endl;
+
+    while (is_programe_started)
+    {
+        {
+            std::unique_lock<std::mutex> lock(CM_mtx);
+            for (auto &actuator : actuators)
+            {
+            actuator->actuator_adjuster();    
+            }
+    
+        }
+        /**
+         * @brief need to control actuators based on sensor latest collected data each 1 second
+         * 
+         */
+        std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+
+        
+    }
+    
+}
 
 /**
  * @brief Gets the current time.

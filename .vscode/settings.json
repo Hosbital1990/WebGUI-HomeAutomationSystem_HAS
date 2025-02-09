@@ -72,5 +72,7 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"
-    }
+    },
+    "commentTranslate.source": "Copilot",
+    "bitoAI.codeCompletion.enableAutoCompletion": false
 }

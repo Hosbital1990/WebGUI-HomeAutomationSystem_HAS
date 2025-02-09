@@ -25,11 +25,11 @@ std::string get_DataBase_name();
 
 
 std::string_view name;
+virtual void startDataAcquisition() override;
 
 
 private:
 
-virtual void startDataAcquisition() override;
 
 std::mutex temp_mtx;
 std::vector<double> raw_temp_data ;

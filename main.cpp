@@ -8,7 +8,7 @@
 #include "heater_controller.h"
 #include "camera.h"
 
-int main(int argc, char const *argv[]){
+int main(){
 
 
     std::cout << "Hello Web GUI" << std::endl;
@@ -25,7 +25,7 @@ int main(int argc, char const *argv[]){
              */
             CentralManager central_manager("admin", "admin", 1001);
             central_manager.system_initial();
-            central_manager.start_point();  
+            central_manager.letsGetStartApp();  
             
     }
     catch(const std::exception& e)

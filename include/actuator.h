@@ -16,13 +16,12 @@ Actuator();
 Actuator(std::string_view name, bool power_state, short int operation_state);
 virtual ~Actuator();
 
-virtual void actuator_adjuster(Sensor* sensor);
+virtual void actuator_adjuster();
 
 private:
 std::string_view name;
 bool power_state;
 short int operation_state;
-
 
 
 };

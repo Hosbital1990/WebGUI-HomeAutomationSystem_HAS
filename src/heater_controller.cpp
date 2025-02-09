@@ -43,7 +43,7 @@ Heater_Controller::~Heater_Controller()
  * 
  * @param sensor Pointer to the associated sensor.
  */
-void Heater_Controller::actuator_adjuster(Sensor* sensor)
+void Heater_Controller::actuator_adjuster()
 {
     while (true)
     {

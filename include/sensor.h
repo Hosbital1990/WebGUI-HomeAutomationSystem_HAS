@@ -18,11 +18,11 @@ bool power_state;
 short int operation_state;
 
 virtual std::vector<double> providing_data();
+virtual void startDataAcquisition();
 
 
 protected:
 
-virtual void startDataAcquisition();
 
 virtual bool power_trigger();
 virtual bool change_operation_state(int new_state);

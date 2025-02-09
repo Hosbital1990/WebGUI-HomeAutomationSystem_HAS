@@ -30,7 +30,7 @@ std::string system_name;
 bool system_initial();
 
 // program starts from here
-void start_point();
+void letsGetStartApp();
 
 
 
@@ -48,12 +48,23 @@ struct Version{
 };
 
 private:
+
+void sensorsTaskHandler();
+void actuatorsTaskHandler();
+void cameraTaskHandler();
+
+
+
+
 std::string_view username;
 std::string_view password;
 int user_ID_number;
 
 std::vector<Sensor*> sensors;
 std::vector<Actuator*> actuators;
+std::mutex CM_mtx;   // CM refers to Central Manager
+
+bool is_programe_started;
 
 };
 
