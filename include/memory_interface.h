@@ -3,7 +3,7 @@
 #include <sstream>
 #include <iostream>
 #include "sqlite3.h"
-
+#include <vector>
 namespace MemoryInterface{
 
 bool write_data(std::vector<double> data, const std::string& filename); // save data directly into a file with csv format

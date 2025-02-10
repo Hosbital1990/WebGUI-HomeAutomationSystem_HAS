@@ -42,12 +42,7 @@ CentralManager::CentralManager(std::string_view username, std::string_view passw
     // }
 }   
 
-/**
- * @brief Destructor for CentralManager.
- */
-CentralManager::~CentralManager()
-{
-}
+
 
 /**
  * @brief Performs initial analysis and setup: 
@@ -88,7 +83,7 @@ void CentralManager::letsGetStartApp()
      */
     is_programe_started = true;
 
-    std::thread snesotThread (&CentralManager::sensorsTaskHandler, this);
+    sensorsThread = std::thread(&CentralManager::sensorsTaskHandler, this);
 }
 
 /**
@@ -147,6 +142,19 @@ void CentralManager::actuatorsTaskHandler(){
     
 }
 
+void CentralManager::stopApp()
+{
+    std::cout << " Program stopped ..." << std::endl;
+
+    /**
+     * @brief toggle the program start flag
+     */
+    is_programe_started = false;
+
+    sensorsThread.join();
+
+}
+
 /**
  * @brief Gets the current time.
  * 
@@ -185,4 +193,33 @@ std::string CentralManager::getCurrentDate()
     std::ostringstream oss;
     oss << std::put_time(&now_tm, "%Y-%m-%d");
     return oss.str();
+}
+
+
+/**
+ * @brief Destructor for CentralManager.
+ * 
+ * @future work: This function should be expanded to include all the necessary cleanup for the system before exit.
+ * 
+ */
+CentralManager::~CentralManager()
+{
+
+    // Stop the program
+    stopApp();
+
+    // Delete all sensors
+    for (auto &sensor : sensors)
+    {
+        delete sensor;
+    }
+
+    // Delete all actuators
+    for (auto &actuator : actuators)
+    {
+        delete actuator;
+    }
+
+    std::cout << "Destructor of central manager is called! " << std::endl;
+
 }

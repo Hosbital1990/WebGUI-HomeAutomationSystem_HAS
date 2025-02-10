@@ -7,7 +7,9 @@
 
 #include <iostream>
 #include <vector>
-
+#include <thread>
+#include <string_view>
+#include <string>
 
 #include "sensor.h"
 #include "actuator.h"
@@ -54,6 +56,7 @@ void actuatorsTaskHandler();
 void cameraTaskHandler();
 
 
+void stopApp();
 
 
 std::string_view username;
@@ -64,6 +67,7 @@ std::vector<Sensor*> sensors;
 std::vector<Actuator*> actuators;
 std::mutex CM_mtx;   // CM refers to Central Manager
 
+std::thread sensorsThread;
 bool is_programe_started;
 
 };
